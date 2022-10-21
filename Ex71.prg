@@ -1,6 +1,5 @@
 function main()
 
-    // FALTA WHILE  
     local nNum
     local nI
     local nFat := 1
