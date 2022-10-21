@@ -27,7 +27,7 @@ function alturas(aAltura, nAlt, nMaior, nMenor)
 
     // Laço para obter altura de 40 pessoas e colocar em um Array, além de obter a maior altura e a menor altura
     while len(aAltura) < 40
-        nAlt := (Random()%40 + 150) / 100 // Obtem número aleatório de altura entre 1.5m e 2m
+        nAlt := (Random()%40 + 150) / 100 // Obtem número aleatório de altura entre 1.5m e 1.9m
         if nAlt > nMaior
             nMaior := nAlt
         end if
