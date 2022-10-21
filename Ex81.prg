@@ -74,36 +74,78 @@ function jokenpo(escCom, escPes, ponCom, ponPes)
                 bLoop := .F.
 
             elseif escCom == 1 .AND. escPes == 2
+                QOUT("     _______               _______     ")
+                QOUT("---'    ____)____         (____   '----")
+                QOUT("           ______)       (____)        ")
+                QOUT("          _______)       (____)        ")
+                QOUT("         _______)         (___)        ")
+                QOUT("---.__________)            (___)__.----")
+
                 QOUT(Chr(10) + "Você ganhou!")
                 QOUT("VOCÊ - Papel X Pedra - COMPUTADOR")
                 ponPes ++
                 bLoop:= .F.
 
             elseif escCom == 1 .AND. escPes == 3
+                QOUT("    _______                _______    ")
+                QOUT("---'   ____)____          (____   '---")
+                QOUT("          ______)        (____)       ")
+                QOUT("       __________)       (____)       ")
+                QOUT("      (____)              (___)       ")
+                QOUT("---.__(___)                (___)__.---")
+
                 QOUT(Chr(10) + "Você perdeu!")
                 QOUT("VOCÊ - Tesoura X Pedra - COMPUTADOR")
                 ponCom ++
                 bLoop:= .F.
 
             elseif escCom == 2 .AND. escPes == 1
+                QOUT("    _______                   ________    ")
+                QOUT("---'   ____)             ____(____    '---")
+                QOUT("      (_____)           (______           ")
+                QOUT("      (_____)           (_______          ")
+                QOUT("      (____)             (_______         ")
+                QOUT("---.__(___)                (__________.---")
+
                 QOUT(Chr(10) + "Você perdeu!")
                 QOUT("VOCÊ - Pedra X Papel - COMPUTADOR")
                 ponCom ++
                 bLoop:= .F.
 
             elseif escCom == 2 .AND. escPes == 3
+                QOUT("    _______                  ________    ")
+                QOUT("---'   ____)____        ____(____    '---")
+                QOUT("          ______)      (______           ")
+                QOUT("       __________)     (_______          ")
+                QOUT("      (____)            (_______         ")
+                QOUT("---.__(___)               (__________.---")
+
                 QOUT(Chr(10) + "Você ganhou!")
                 QOUT("VOCÊ - Tesoura X Papel - COMPUTADOR")
                 ponPes ++
                 bLoop:= .F.
 
             elseif escCom == 3 .AND. escPes == 1
+                QOUT("    _______                 _______    ")
+                QOUT("---'   ____)          _____(____   '---")
+                QOUT("      (_____)        (_______          ")
+                QOUT("      (_____)        (__________       ")
+                QOUT("      (____)               (____)      ")
+                QOUT("---.__(___)                 (___)__.---")
+
                 QOUT(Chr(10) + "Você Ganhou!")
                 QOUT("VOCÊ - Pedra X Tesoura - COMPUTADOR")
                 ponPes ++
                 bLoop:= .F.
 
             elseif escCom == 3 .AND. escPes == 2
+                QOUT("     _______                    _______    ")
+                QOUT("---'    ____)____         _____(____   '---")
+                QOUT("           ______)       (_______          ")
+                QOUT("          _______)       (__________       ")
+                QOUT("         _______)              (____)      ")
+                QOUT("---.__________)                 (___)__.---")
+
                 QOUT(Chr(10) + "Você Perdeu!")
                 QOUT("VOCÊ - Papel X Tesoura - COMPUTADOR")
                 ponCom ++
@@ -150,40 +192,82 @@ function RockPaperscissor(escCom, escPes, ponCom, ponPes)
     local bLoop := .T.
         do while bLoop 
             if escCom == escPes
-                QOUT(Chr(10) + "Draw!")
+                QOUT(Chr(10) + "Tie!")
                 bLoop := .F.
 
             elseif escCom == 1 .AND. escPes == 2
+                QOUT("     _______               _______     ")
+                QOUT("---'    ____)____         (____   '----")
+                QOUT("           ______)       (____)        ")
+                QOUT("          _______)       (____)        ")
+                QOUT("         _______)         (___)        ")
+                QOUT("---.__________)            (___)__.----")
+
                 QOUT(Chr(10) + "You win!")
                 QOUT("YOU - Paper X Rock - COMPUTER")
                 ponPes ++
                 bLoop:= .F.
 
             elseif escCom == 1 .AND. escPes == 3
+                QOUT("    _______                _______    ")
+                QOUT("---'   ____)____          (____   '---")
+                QOUT("          ______)        (____)       ")
+                QOUT("       __________)       (____)       ")
+                QOUT("      (____)              (___)       ")
+                QOUT("---.__(___)                (___)__.---")
+
                 QOUT(Chr(10) + "You lost!")
                 QOUT("YOU - Scissors X Rock - COMPUTER")
                 ponCom ++
                 bLoop:= .F.
 
             elseif escCom == 2 .AND. escPes == 1
+                QOUT("    _______                   ________    ")
+                QOUT("---'   ____)             ____(____    '---")
+                QOUT("      (_____)           (______           ")
+                QOUT("      (_____)           (_______          ")
+                QOUT("      (____)             (_______         ")
+                QOUT("---.__(___)                (__________.---")
+
                 QOUT(Chr(10) + "You lost!")
                 QOUT("YOU - Rock X Paper - COMPUTER")
                 ponCom ++
                 bLoop:= .F.
 
             elseif escCom == 2 .AND. escPes == 3
+                QOUT("    _______                  ________    ")
+                QOUT("---'   ____)____        ____(____    '---")
+                QOUT("          ______)      (______           ")
+                QOUT("       __________)     (_______          ")
+                QOUT("      (____)            (_______         ")
+                QOUT("---.__(___)               (__________.---")
+
                 QOUT(Chr(10) + "You win!")
                 QOUT("YOU - Scissor X Paper - COMPUTER")
                 ponPes ++
                 bLoop:= .F.
 
             elseif escCom == 3 .AND. escPes == 1
+                QOUT("    _______                 _______    ")
+                QOUT("---'   ____)          _____(____   '---")
+                QOUT("      (_____)        (_______          ")
+                QOUT("      (_____)        (__________       ")
+                QOUT("      (____)               (____)      ")
+                QOUT("---.__(___)                 (___)__.---")
+
                 QOUT(Chr(10) + "You win!")
                 QOUT("YOU - Rock X Scissor - COMPUTER")
                 ponPes ++
                 bLoop:= .F.
 
             elseif escCom == 3 .AND. escPes == 2
+                QOUT("     _______                    _______    ")
+                QOUT("---'    ____)____         _____(____   '---")
+                QOUT("           ______)       (_______          ")
+                QOUT("          _______)       (__________       ")
+                QOUT("         _______)              (____)      ")
+                QOUT("---.__________)                 (___)__.---")
+                
                 QOUT(Chr(10) + "You lost!")
                 QOUT("YOU - Paper X Scissor - COMPUTER")
                 ponCom ++

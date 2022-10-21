@@ -56,11 +56,11 @@ function nPara()
     local nNota
     local nTotal := 0
 
-    // Laço para obter a notas
+    // Laço for para obter a notas
     for nI := 1 TO 4
         ACCEPT "Digite sua nota: " TO nNota
         nNota := Val(nNota)
-        if nNota < 0 .OR. nNota > 10
+        if nNota < 0 .OR. nNota > 10    // Certifica que o número seja entre 0 e 10
             QOUT("Número inválido, tente novamente!")
             nI --
         else
@@ -78,10 +78,11 @@ function nEnquanto()
     local nNota
     local nTotal := 0
 
+    // Laço while para obter a notas
     while nI <= 4
         ACCEPT "Digite sua nota: " TO nNota
 
-        if nNota < 0 .OR. nNota > 10
+        if nNota < 0 .OR. nNota > 10    // Certifica que o número seja entre 0 e 10
             QOUT("Número inválido, tente novamente!")
         else
             nTotal += Val(nNota)
